@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .container-inner {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container .container-inner h1 {
+    text-transform: uppercase;
+}
+
+.container .container-inner .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.container .container-inner .row p {
+    font-size: 1.5em;
+    margin: 0 10px 0 20px;
+}
+
+.container .container-inner .row h2 {
+    margin: 0;
+}
+
+.container .container-inner .row i {
+    margin: 5px 0;
+}
+
+.container .container-inner .row .btn {
+    border-radius: 4px;
+    padding: 10px;
+    margin: 15px;
+    outline: none;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #387d86;
+    color: #fff;
+    border: 2px #387d86 solid;
+    cursor: pointer;
+}
+
+.container .container-inner .row .active-btn {
+    color: #387d86;
+    background-color: #fff;
+}
